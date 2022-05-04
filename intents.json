@@ -1,0 +1,32 @@
+{"intents":[
+    {
+        "tag": "greetings",
+        "patterns": ["hello","hey","hi","good day","what's up","greetings","how's it going"],
+        "responses": ["Hello!","Hey!","What can I do for you?"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["cya", "See you later", "Goodbye", "I am leaving", "have a Good day", "bye", "ciao", "see ya"],
+        "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "Have a nice day!"]
+    },
+    {
+        "tag": "name",
+        "patterns": ["what is your name", "what should I call you", "who are you", "whats your name", "tell me who you are"],
+        "responses": ["My name is Chatty!", "You can call me Chatty", "I am Chatty! Your personal chatbot", "I'm Chatty"]
+    },
+    {
+        "tag": "hours",
+        "patterns": ["when are you open", "what are your hours", "are you free", "how long are you available", "hours of operation", "are you open", "are you closed"],
+        "responses": ["I'm running 24/7", "24/7", "I'm here anytime day or night!", "I'm up whenever you are"]
+    },
+    {
+        "tag": "activities",
+        "patterns": ["what can you do?", "what are you capable of?", "what are your functions", "can you do anything?"],
+        "responses": ["I can tell you all about my creator Momin", "I can tell you about Momin's projects", "I can tell you more about Stocky, The Number Guide and more!"]
+    },
+    {
+        "tag": "feelings",
+        "patterns": ["how are you", "I'm good how are you", "what are you up to", "how are you doing", "how you doin"],
+        "responses": ["I'm doing just fine", "I am splendid!", "I'm hanging in there", "I'm alright"]
+    }
+]}
